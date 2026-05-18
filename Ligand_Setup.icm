@@ -1,0 +1,16 @@
+dockUpdateGlobals "Receptor_1" -1 
+if( no & currentDockProj.l_readyReceptor ) dockDisplayMol "Receptor_1" 0, -1 
+currentDockProj.data[2:9] = {"dock3DbScanSetup"}//String( yes )//String( no )//"auto"// "mol" // "/Filepath/Library.sdf" // "yes" //String( yes ) 
+dock3DbScanSetup currentDockProj.data[1] no yes "default"
+
+dockUpdateGlobals "Receptor_2" -1 
+if( no & currentDockProj.l_readyReceptor ) dockDisplayMol "Receptor_2" 0, -1 
+currentDockProj.data[2:9] = {"dock3DbScanSetup"}//String( yes )//String( no )//"auto"// "mol" // "/Filepath/Library.sdf" // "yes" //String( yes ) 
+dock3DbScanSetup currentDockProj.data[1] no yes "default"
+
+dockUpdateGlobals "Receptor_3" -1 
+if( no & currentDockProj.l_readyReceptor ) dockDisplayMol "Receptor_3" 0, -1 
+currentDockProj.data[2:9] = {"dock3DbScanSetup"}//String( yes )//String( no )//"auto"// "mol" // "/Filepath/Library.sdf" // "yes" //String( yes ) 
+dock3DbScanSetup currentDockProj.data[1] no yes "default"
+
+

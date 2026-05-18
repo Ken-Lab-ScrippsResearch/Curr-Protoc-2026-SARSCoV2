@@ -1,0 +1,39 @@
+dockUpdateGlobals "Receptor_1" -1 
+if( no & currentDockProj.l_readyReceptor ) dockDisplayMol "Receptor_1" 0, -1 
+dockUpdateGlobals currentDockProj.data[1] -2 
+dockTableValue currentDockProj.data[1] "l_sampleRacemic" "logical" String( no ) 
+dockTableValue currentDockProj.data[1] "l_dbondCisTrans" "logical" String( no ) 
+dockTableValue currentDockProj.data[1] "l_softLigand" "logical" String( yes ) 
+dockTableValue currentDockProj.data[1] "i_ringFlexLevel" "integer" String( 2 ) 
+dockTableValue currentDockProj.data[1] "l_neutralAcidsMol" "logical" String( no ) 
+dockTableValue currentDockProj.data[1] "s_chargeGroups" "string" "none" 
+if(currentDockProj.l_readyXray) dockTableValue currentDockProj.data[1] "r_densityWeight" "real" String( $currentDockProj.data[49] ) 
+dockTableValue currentDockProj.data[1] "l_fixOmegas" "logical" String( no ) 
+dockUpdateGlobals currentDockProj.data[1] -1 
+
+dockUpdateGlobals "Receptor_2" -1 
+if( no & currentDockProj.l_readyReceptor ) dockDisplayMol "Receptor_2" 0, -1 
+dockUpdateGlobals currentDockProj.data[1] -2 
+dockTableValue currentDockProj.data[1] "l_sampleRacemic" "logical" String( no ) 
+dockTableValue currentDockProj.data[1] "l_dbondCisTrans" "logical" String( no ) 
+dockTableValue currentDockProj.data[1] "l_softLigand" "logical" String( yes ) 
+dockTableValue currentDockProj.data[1] "i_ringFlexLevel" "integer" String( 2 ) 
+dockTableValue currentDockProj.data[1] "l_neutralAcidsMol" "logical" String( no ) 
+dockTableValue currentDockProj.data[1] "s_chargeGroups" "string" "none" 
+if(currentDockProj.l_readyXray) dockTableValue currentDockProj.data[1] "r_densityWeight" "real" String( $currentDockProj.data[49] ) 
+dockTableValue currentDockProj.data[1] "l_fixOmegas" "logical" String( no ) 
+dockUpdateGlobals currentDockProj.data[1] -1 
+
+dockUpdateGlobals "Receptor_3" -1 
+if( no & currentDockProj.l_readyReceptor ) dockDisplayMol "Receptor_3" 0, -1 
+dockUpdateGlobals currentDockProj.data[1] -2 
+dockTableValue currentDockProj.data[1] "l_sampleRacemic" "logical" String( no ) 
+dockTableValue currentDockProj.data[1] "l_dbondCisTrans" "logical" String( no ) 
+dockTableValue currentDockProj.data[1] "l_softLigand" "logical" String( yes ) 
+dockTableValue currentDockProj.data[1] "i_ringFlexLevel" "integer" String( 2 ) 
+dockTableValue currentDockProj.data[1] "l_neutralAcidsMol" "logical" String( no ) 
+dockTableValue currentDockProj.data[1] "s_chargeGroups" "string" "none" 
+if(currentDockProj.l_readyXray) dockTableValue currentDockProj.data[1] "r_densityWeight" "real" String( $currentDockProj.data[49] ) 
+dockTableValue currentDockProj.data[1] "l_fixOmegas" "logical" String( no ) 
+dockUpdateGlobals currentDockProj.data[1] -1 
+

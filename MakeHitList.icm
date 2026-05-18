@@ -1,0 +1,4 @@
+scanMakeHitList "Receptor_1" "Receptor_1_Library" Name(Name( "Receptor_1_Library" ),simple) 3 ==2 no 3 ==1 no ? 100 : 0
+scanMakeHitList "Receptor_2" "Receptor_2_Library" Name(Name( "Receptor_2_Library" ),simple) 3 ==2 no 3 ==1 no ? 100 : 0
+scanMakeHitList "Receptor_3" "Receptor_3_Library" Name(Name( "Receptor_3_Library" ),simple) 3 ==2 no 3 ==1 no ? 100 : 0
+
